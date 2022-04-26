@@ -1,0 +1,517 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\CochesRestApi\\CochesRestApi.csproj": {}
+  },
+  "projects": {
+    "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.Application.BusinessModels\\Cars.Application.BusinessModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.Application.BusinessModels\\Cars.Application.BusinessModels.csproj",
+        "projectName": "Cars.Application.BusinessModels",
+        "projectPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.Application.BusinessModels\\Cars.Application.BusinessModels.csproj",
+        "packagesPath": "C:\\Users\\ManuelMato\\.nuget\\packages\\",
+        "outputPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.Application.BusinessModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ManuelMato\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.Application.Contracts\\Cars.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.Application.Contracts\\Cars.Application.Contracts.csproj",
+        "projectName": "Cars.Application.Contracts",
+        "projectPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.Application.Contracts\\Cars.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\ManuelMato\\.nuget\\packages\\",
+        "outputPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ManuelMato\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.Application.BusinessModels\\Cars.Application.BusinessModels.csproj": {
+                "projectPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.Application.BusinessModels\\Cars.Application.BusinessModels.csproj"
+              },
+              "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.DataAccess.Contracts\\Cars.DataAccess.Contracts.csproj": {
+                "projectPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.DataAccess.Contracts\\Cars.DataAccess.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.Application\\Cars.Application.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.Application\\Cars.Application.Services.csproj",
+        "projectName": "Cars.Application.Services",
+        "projectPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.Application\\Cars.Application.Services.csproj",
+        "packagesPath": "C:\\Users\\ManuelMato\\.nuget\\packages\\",
+        "outputPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ManuelMato\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.Application.Contracts\\Cars.Application.Contracts.csproj": {
+                "projectPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.Application.Contracts\\Cars.Application.Contracts.csproj"
+              },
+              "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.DataAccess.Contracts\\Cars.DataAccess.Contracts.csproj": {
+                "projectPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.DataAccess.Contracts\\Cars.DataAccess.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.CrossCutting\\Cars.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.CrossCutting\\Cars.CrossCutting.csproj",
+        "projectName": "Cars.CrossCutting",
+        "projectPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.CrossCutting\\Cars.CrossCutting.csproj",
+        "packagesPath": "C:\\Users\\ManuelMato\\.nuget\\packages\\",
+        "outputPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.CrossCutting\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ManuelMato\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.Application.Contracts\\Cars.Application.Contracts.csproj": {
+                "projectPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.Application.Contracts\\Cars.Application.Contracts.csproj"
+              },
+              "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.Application\\Cars.Application.Services.csproj": {
+                "projectPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.Application\\Cars.Application.Services.csproj"
+              },
+              "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.DataAccess.Contracts\\Cars.DataAccess.Contracts.csproj": {
+                "projectPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.DataAccess.Contracts\\Cars.DataAccess.Contracts.csproj"
+              },
+              "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.DataAccess.Services\\Cars.DataAccess.Services.csproj": {
+                "projectPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.DataAccess.Services\\Cars.DataAccess.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.DataAccess.Contracts\\Cars.DataAccess.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.DataAccess.Contracts\\Cars.DataAccess.Contracts.csproj",
+        "projectName": "Cars.DataAccess.Contracts",
+        "projectPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.DataAccess.Contracts\\Cars.DataAccess.Contracts.csproj",
+        "packagesPath": "C:\\Users\\ManuelMato\\.nuget\\packages\\",
+        "outputPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.DataAccess.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ManuelMato\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.DataAccess.Services\\Cars.DataAccess.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.DataAccess.Services\\Cars.DataAccess.Services.csproj",
+        "projectName": "Cars.DataAccess.Services",
+        "projectPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.DataAccess.Services\\Cars.DataAccess.Services.csproj",
+        "packagesPath": "C:\\Users\\ManuelMato\\.nuget\\packages\\",
+        "outputPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.DataAccess.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ManuelMato\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.DataAccess.Contracts\\Cars.DataAccess.Contracts.csproj": {
+                "projectPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.DataAccess.Contracts\\Cars.DataAccess.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0-preview.1.22076.8, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\CochesRestApi\\CochesRestApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\CochesRestApi\\CochesRestApi.csproj",
+        "projectName": "CochesRestApi",
+        "projectPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\CochesRestApi\\CochesRestApi.csproj",
+        "packagesPath": "C:\\Users\\ManuelMato\\.nuget\\packages\\",
+        "outputPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\CochesRestApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ManuelMato\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.Application.BusinessModels\\Cars.Application.BusinessModels.csproj": {
+                "projectPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.Application.BusinessModels\\Cars.Application.BusinessModels.csproj"
+              },
+              "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.Application.Contracts\\Cars.Application.Contracts.csproj": {
+                "projectPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.Application.Contracts\\Cars.Application.Contracts.csproj"
+              },
+              "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.CrossCutting\\Cars.CrossCutting.csproj": {
+                "projectPath": "D:\\apolo\\BOOTCAMP-APOLO\\09- Api rest- NET6\\Cars.CrossCutting\\Cars.CrossCutting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
